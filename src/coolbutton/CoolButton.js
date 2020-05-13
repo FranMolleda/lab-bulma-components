@@ -15,11 +15,13 @@ export const CoolButton = (props) => {
 };
 export const CoolButtonSubmit = (props) => {
   return (
-    <input
-      className="button"
-      type="submit"
-      value="Submit input"
-      submit="Enviar Formulario"
-    />
+    <div className=" has-text-centered">
+      <input
+        className="button"
+        type="submit"
+        value="Submit input"
+        submit="Enviar Formulario"
+      />
+    </div>
   );
 };
